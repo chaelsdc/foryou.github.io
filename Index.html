@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+
+
+</head>
+<body>
+    <div id="intro">
+        <h2>Enter Your Name</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <h2>How old will you be on April 2?</h2>
+        <input type="number" id="age" placeholder="Your Age">
+        <button onclick="startBirthday()">Submit</button>
+    </div>
+
+    <div id="birthdayPage" class="hidden">
+        <button class="heart-button" onclick="openPopup()">❤️ Click Me</button>
+        <div class="popup" id="popup">
+            <p id="birthdayMessage"></p>
+            <p>
+                Today is your day, and I wish you the best. I hope you will enjoy this day.<br><br>
+                Sorry again for stressing you out so much, you mean a lot to me. Every moment with you is a gift, and I’m very grateful to have you in my life.<br><br>
+                No matter what, I'll always be here for you. May this new chapter of your life bring you more happiness and less problems.<br><br>
+                Enjoy your day! ❤️<br><br>
+                <strong>From,</strong> <br>
+                <strong>Michael</strong>
+            </p>
+            <button onclick="showImages()">Click :)</button>
+        </div>
+        <div class="image-container" id="imageContainer">
+            <img src="images/aa2.png" alt="Image 1">
+            <img src="images/aaa.png" alt="Image 2">    
+            <img src="images/aaa3.png" alt="Image 3">
+            <img src="images/aaa4.png" alt="Image 4">
+            <img src="images/aaa5.png" alt="Image 5">
+            <img src="images/aaa6.png" alt="Image 6">
+            <img src="images/aaa7.png" alt="Image 7">
+        </div>
+    </div>
+</body>
+</html>
